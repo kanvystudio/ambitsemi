@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS about page */
+
+
+
+
+ /* Designing all grid */
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+           /* background-color: gray; */
+            padding: 10px;
+        }
+ 
+        /* Designing all grid-items */
+        .grid-container>div {
+           /* background-color: rgba(255, 255, 255, 0.8);
+            
+            padding: 20px 0;
+            font-size: 30px; */
+			text-align: center;
+        }
+ 
+        /* Grid Column */
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+ 
+        /* Grid row */
+        .item2 {
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+		
+		.item3 {
+			  grid-row-start: 1;
+			  grid-row-end: 3;
+			}
+			
+			
+			
+			
+/*			.grid-container>div .iteam::after {
+			position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  content: ' ';
+  z-index: 2;
+}
+
+.grid-container>div .iteam::after:hover {
+      position: relative;
+      transition: all 0.5s ease-out;
+      width: 100%;
+      z-index: 1;
+      display: block;
+      height: auto; }*/
+	  
+	  
+	  
+   .grid-container>div .iteam{transition: all 0.3s ease-out;}
+   .grid-container>div .iteam:hover { background-color: #000000; }
+   
+   .item1 .iteam:hover{background-color: #000 !important; opacity: 0.9;}
+   .item2 .iteam:hover{background-color: #000 !important; opacity: 0.9;}
+   .item4 .iteam:hover{background-color: #000 !important; opacity: 0.9;}
+   .item5 .iteam:hover{background-color: #000 !important; opacity: 0.9;}
+		
+		
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+		
+		
+	@media (max-width: 767px) {
+		.grid-container { display:block;}
+		.grid-container>div { width:100% !important; float:none; }
+		
+	}
+		
+		
+
+
+.grid-container>div h3 {
+    color: #FFF;
+    margin-bottom: 4px !important;
+    font-size: 24px;
+}
+
+.grid-container>div span {
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+.text-middle {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    z-index: 3;
+    position: relative;
+}
+.text-center {
+    text-align: center!important;
+}
+
+
+
+
+
+
+

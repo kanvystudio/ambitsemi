@@ -1,347 +1,924 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<script type="application/ld+json">
-{
-"@context": "http://schema.org",
-"@type": "Organization",
-"name": "Ambit Semiconductors Pvt Ltd",
-"url": "https://www.ambitsemi.com/index.html/",
-"sameAs": [
-        "https://www.youtube.com/channel/UCeftRWBMrbBNE0nwd6-XkCA",
-	"https://www.facebook.com/ambitbangalore/",
-	"https://www.linkedin.com/in/ambitsemi",
-	"https://twitter.com/Ambitsemi",
-	"https://plus.google.com/114979687527527722453" 
-],
-"logo": " https://www.ambitsemi.com/images/logo.png",
-"address": [
-{
-"@type" : "PostalAddress",
-"addressCountry":"India",
-"addressLocality" : "karnataka",
-"addressRegion" : "Bangalore",
-"postalCode" : "560066",
-"streetAddress" : " Plot no 7, Gamma Block, 3rd Floor,Sigma Soft Tech Park 
-Varthur Kodi Whitefield, Near Virginia Mall,Bangalore"
-}
-],
-"contactPoint":[
-{
-"@type":"ContactPoint",
-"telephone":" +918043716358",
-"contactType" : "Customer Service"
-}
-]
-}
-</script>
-<script type="application/ld+json">
-{
-"@context": "http://schema.org",
-"@type": "WebSite",
-"url": " https://www.ambitsemi.com/index.html/",
-"potentialAction": {
-"@type": "SearchAction",
-"target": " https://www.ambitsemi.com/?s={search_term}",
-"query-input": "required name=search_term" }
-}
-</script>
-<script type="application/ld+json">
-"aggregateRating" : {
-"@type" : "AggregateRating",
-"ratingValue" : "5.0",
-"ratingCount" : "1325"
-}
-}
-</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Physical design,ASIC design,Physical design engineer,ASIC design Engineers,DTF Engineers,Design Verification Engineers,semiconductor design services. />
-    <meta name="description" content="Ambit offers it’s people the ideal platform to toil and grow in the semiconductor design profession.Ambit firmly believes that for a company to grow big through innovation, its people must be given a free hand to experiment and innovate.">
-    
-    <link rel='shortcut icon' href="images/favicon.png" />
-    <link rel="canonical" href="https://www.ambitsemi.com/careers.html/" />
-    
-    <!-- Document title -->
-    <title> Physical Design Engineer Careers | Open Positions @ Ambit </title>
-    <!-- Stylesheets & Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet"> 
+<meta charset="utf-8">
 
-		<!-- LOAD JQUERY LIBRARY -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<title> Semiconductor design services in Bangalore | Whitefield | Ambit  </title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+<link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+<link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<style>
+
+.accordion-item{margin-bottom: 30px;
+    border: 1px #CCC solid !important;
+    border-radius: 10px !important; padding: 4px;}
+
+.accordion-button{ display:block; 
+	font-size: 18px;
+  line-height: 25px;
+  color: var(--theme-color1);
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 20px;
+ 
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border-bottom: 1px solid #f4f5f8) !important;
+	}
+	
+
+	
+.accordion-button::after {
+     position:absolute;
+	 top:30px;
+	 right:30px;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out
+}	
+	
+.accordion-button:not(.collapsed) {
+    color: #0c63e4; 
+     background-color:none !important; 
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125); 
+}	
+.accordion-button:focus{ background:none; border:0px !important; box-shadow:none !important;}	
+.accordion-button:not(.collapsed) { background:none;}	
+
+.accordion-body{border-top: 1px solid #f4f5f8 !important;}	
+
+
+	
+</style>
+
+
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+	<!-- Preloader -->
+	<div class="preloader">
+    	<div class="line-scale">
+            <div></div>
+            <div></div>                
+            <div></div>               
+            <div></div>                
+            <div></div>                                
+        </div>
+    </div>
+
+	<!-- Main Header-->
+	<header class="main-header header-style-four">
 		
-	
-										
-        
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114922906-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<!-- Header Lower -->
+		<div class="header-lower">
+			<!-- Main box -->
+			<div class="main-box">
+				<div class="logo-box">
+					<div class="logo"><a href="index.html"><img src="images/logo-dark.png" alt="" title="Oitech"></a></div>
+				</div>
 
-  gtag('config', 'UA-114922906-1');
-</script>    
+				<!--Nav Box-->
+				<div class="nav-outer">
 
-        
-        
-	</head>
-	
-	
-	
-	<body>
-    
-    <!-- Wrapper -->
-    <div id="wrapper">
+					<nav class="nav main-menu">
+						<ul class="navigation">
+							<li class=""><a href="index.html">Home</a> </li>
+							<li class="dropdown "><a href="#">Ambit</a>
+								<ul>
+                                   <li><a href="about-ambit.html"> About Ambit </a></li>
+                                   <li><a href="management.html"> Management </a></li>
+                                   <li><a href="our-logo.html"> Our Logo </a></li>
+                                 </ul>
+							</li>
+                            <li class="dropdown "><a href="#">Services</a>
+										<ul>
+                                        	<li><a href="systems-design.html"> System Design </a></li>
+                                        	<li><a href="offshore-design-centre.html"> Offshore Design Centre   </a></li>
+                                            <li><a href="soc-ip-physical-design.html"> SoC/IP Physical Design </a></li>
+                                            <li><a href="embedded-solutions.html"> Embedded Solutions </a></li>
+                                            <li><a href="software-solutions.html"> Software Solutions </a></li>
+                                        </ul>		
+							</li>
+                                    
+                             <li class="current"><a href="careers.html">Careers</a></li>
+                             <li class=""><a href="events.html">Events</a></li>
+                             <li class=""><a href="contact.html">Contact</a> </li>       
+						</ul>
+					</nav>
+					<!-- Main Menu End-->
 
 
-        <!-- Header -->
-        <header id="header" class="">
-            <div id="header-wrap">
-                <div class="container">
-                    <!--Logo-->
-                    <div id="logo">
-                        <a href="index.html" class="logo" data-dark-logo="images/logo-dark.png"> <img src="images/logo.png" alt="Ambit Logo"> </a>
-                    </div>
-                    <!--End: Logo-->
+					<!--<div class="outer-box">
+						<a href="tel:+92(8800)9806" class="info-btn">
+							<i class="icon fa fa-phone"></i>
+							<small>Call Anytime</small><br> + 88 ( 9800 ) 6802
+						</a>
 
-                    
+						
+						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+				</div>-->
+				</div>
+			</div>
+		</div>
+  <!-- End Header Lower -->
 
-                    
+		<!-- Mobile Menu  -->
+		<div class="mobile-menu">
+			<div class="menu-backdrop"></div>
 
-                    <!--Navigation Resposnive Trigger-->
-                    <div id="mainMenu-trigger">
-                        <button class="lines-button x"> <span class="lines"></span> </button>
-                    </div>
-                    <!--end: Navigation Resposnive Trigger-->
+			<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+			<nav class="menu-box">
+				<div class="upper-box">
+					<div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+					<div class="close-btn"><i class="icon fa fa-times"></i></div>
+				</div>
 
-                    <!--Navigation-->
-                    <div id="mainMenu" class="light">
-                        <div class="container">
-                            <nav>
-                                <ul>
-                                    <li><a href="index.html">HOME</a></li>
-                                    <li class="dropdown"> <a href="#">AMBIT</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="about-ambit.html"> About Ambit </a></li>
-                                            <li><a href="management.html"> Management </a></li>
-                                            <li><a href="our-logo.html"> Our Logo </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"> <a href="#">SERVICES</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="offshore-design-centre.html"> Offshore Design Centre   </a></li>
-                                            <li><a href="soc-ip-physical-design.html"> SOC / IP Physical Design </a></li>
-                                            <li><a href="embedded-software.html"> Embedded Software </a></li>
-                                            <li><a href="system-design.html"> System Design </a></li>
-                                            <li><a href="training.html"> Training </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" style="color:#0095da;">CAREERS</a></li>
-                                    <li><a href="contact.html">CONTACT</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <!--end: Navigation-->
-                </div>
-            </div>
-        </header>
-        <!-- end: Header -->
-
-	
-    	<!-- Page title -->
-        <section id="page-title" class="" data-parallax-image="images/carees-bg.jpg" style="background-position:right;" >
-            <div class="container">
-                <div class="page-title" data-animation="fadeInUp" data-animation-delay="1300">
-                    <div class="innerBanerText">
-                    	<span class="firstColor"> CAREERS </span> <br> <span class="secondColor"> &nbsp; </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end: Page title -->
-    
-    
-<section style="background:#FFF;" class="p-t-40">
-            <div class="container">
-            <div class="row">
-            	<div class="col-md-4 col-sm-12 m-t-30 " style="width:310px;">
-                  <div class="cv-content p-30">
-                   <p style="color:#FFF;"> Are you up for a career that throws challenges and at the same time gives you a sense of pride in what you do? </p>
-                   <p style="color:#FFF;"> Ambit offers it’s people the ideal platform to toil and grow in the semiconductor design profession. Our people have complete freedom to operate in their own flexible ways and support that help them to learn and enhance their skills further. </p>
-                   <p style="color:#FFF;"> Ambit firmly believes that for a company to grow big through innovation, its people must be given a free hand to experiment and innovate. The cheerful and bubbly work environment at Ambit portrays the commitment of the management for its people and their values. </p>
-                   <p style="color:#FFF;"> Come join us today for a bright future in semiconductor design services. </p>
-                    	<a href="careers-form.html" class="btn btn-default btn-width" > &nbsp;APPLY NOW </a>
-                    </div>
-                    
-                    <div class="cv p-30 text-center">
-                    <p style="color:#FFF; font-size:16px;"> MAIL YOUR CV TO <br> <strong>career@ambitsemi.com </strong> <br> CALL OUR HR - <br> <strong> +91 80 4371 6358 </strong> </p>
-                    </div>
-
-                </div>
-                
-                <div class="col-md-8" style="padding:40px 0 0 20px;">
-                	<h1 style="color:#00b697; font-weight:bold;"> CURRENT OPPORTUNITIES </h1>
-                	<div class="mybox">
-                        <div class="accordion clean ">
-					<div class="ac-item border-bottom ">
-						<h5 class="ac-title border-bottom"> PHYSICAL DESIGN ENGINEER</h5>
-						<div class="ac-content border-bottom">
-                        	<h5 style="color:#007daa; font-size:18px;"> Sr. Engineer / MTS / SMTS </h5>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Qualification:</span> B.Tech / M.Tech or equivalent from a reputed University </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Experience:</span> 2 - 8 years of relevant experience </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa;">Location:</span> Bangalore / Hyderabad </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Job Description </span> <br>
-                            	Responsible for all aspects of physical design and implementation. Responsibilities include chip floor plan, power / clock distribution, chip assembly and P&R, timing closure, power and noise analysis and back-end verification across multiple projects.  </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> High level of expertise in complete physical implementation tool chain; Good working knowledge and experience of netlist to GDSII flows Hands-on technical experience with deep sub-micron technology ASIC design, STA and physical implementation; </p>
-							<p style="margin-bottom:5px; color:#58595b;"> Expertise in Synthesis, Static Timing Analysis and Timing Closure of High Performance Hard-Macros and/or Full Chip Physical Designs</p>
-                            <p style="margin-bottom:5px; color:#58595b;"> Should be independent, self-driven and a strong team player. </p>
-                            <ul class="" style="font-size:14px; color:#58585a; padding-left:15px;">
-                                <li> Thorough understanding and knowledge of the entire Back end flow Netlist to gdsii </li>
-                                <li> Must be familiar with Industry standard tools like ICC / Innovus / Encounter  </li>
-                                <li> Should have expertise in Timing analysis and closure </li>
-                                <li> Should have Tcl and perl scripting skills  </li>
-                                <li> Preferred experience in the latest technology nodes like 7nm/10nm  </li>
-                                <li> Should be familiar with low-power design and their impact on Back end flow (power switches / Level shifter / Isolation cell / retention cells) </li>
-                            </ul>
-                        </div>
-					</div>
-					<div class="ac-item border-bottom ">
-						<h5 class="ac-title border-bottom"> ASIC DESIGN ENGINEERS </h5>
-						<div class="ac-content border-bottom">
-                        	<h5 style="color:#007daa; font-size:18px;"> Sr. Engineer / MTS / SMTS </h5>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Qualification:</span> B.Tech / M.Tech or equivalent from a reputed University </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Experience:</span> 2 - 8 years of relevant experience </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa;">Location:</span> Bangalore / Hyderabad </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Job Description </span> <br>
-                            	Strong in digital design fundamentals
-                            </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> Expertise in micro architecture development, design, RTL Coding & integration of IP blocks in ASIC/SoC designs </p>
-							<p style="margin-bottom:5px; color:#58595b;"> Very good understanding of timing requirements, synthesis flows and experience in formal verification flows</p>
-                            
-                            <ul class="" style="font-size:14px; color:#58585a; padding-left:15px;">
-                                <li> Hands on experience of coding in Verilog and VHDL. </li>
-								<li> Understanding of Power Intent, Power estimation and checks. </li>
-								<li> Experience of Design rule checks and Clock domain crossing checks using Spyglass or similar tool. </li>
-								<li> Specification writing. </li>
-								<li> IP RTL development experience. </li>
-								<li> Good knowledge of version control tools like Clearcase and Design sync. </li>
-								<li> Strong in digital design fundamentals. </li>
-								<li> Expertise in micro architecture development, design, RTL Coding & integration of IP blocks in ASIC / SoC designs. </li>
-								<li> Very good understanding of timing requirements, synthesis flows and experience in formal verification flows. </li>
-								<li> Design for test and Design for debug (DFx) is a plus. </li>
-								<li> Very good understanding of system level architecture and validation flows. </li>
-								<li> Highly motivated individuals and ability to deal with ambiguity. </li>
-								<li> Ability to work in a team environment. </li>
-								<li> Good hands-on expertise in Perl, Shell and Unix scripting. </li>
+				<ul class="navigation clearfix">
+					<!--Keep This Empty / Menu will come through Javascript-->
+				</ul>
 				
-                            </ul>
-                        </div>
-					</div>
-					<div class="ac-item border-bottom ">
-						<h5 class="ac-title border-bottom"> DFT ENGINEERS </h5>
-						<div class="ac-content border-bottom">
-                        	<h5 style="color:#007daa; font-size:18px;"> Sr. Engineer / MTS / SMTS </h5>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Qualification:</span> B.Tech / M.Tech or equivalent from a reputed University </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Experience:</span> 2 - 8 years of relevant experience </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa;">Location:</span> Bangalore / Hyderabad </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Job Description </span> <br>
-                            	Specify the DFT Architecture including JTAG functionality, boundary scan, Hierarchical scan, at-speed testing, I/O testing requirements, MBIST and Repair, Implement Test Logic. </p>
-<p style="margin-bottom:5px; color:#58595b;"> Generate and debug test patterns Exposure to EDA tools viz. DC, LogicVision, Fastscan, Tetramax Good knowledge about all DFT concepts & ATPG Flow. </p>
-<p style="margin-bottom:5px; color:#58595b;"> Vector Generation, ATPG Pattern Generation, Validation, Scan insertion and validation, Timing Analysis</p>
-<p style="margin-bottom:5px; color:#58595b;"> Chip-level DFT insertion with sound knowledge of scan compression, MBIST & JTAG techniques </p>
-                           
-                            <ul class="" style="font-size:14px; color:#58585a; padding-left:15px;">
-                                <li> 	Should have good post silicon DFT bringup and debug experience</li>
-                                <li>	Hands on in multi-vendor DFT tools</li>
-                                <li>	Create test plan for complex ASICs and drive the DFT implementation & verification </li>
-                                <li> 	Ability to guide people, multiplex many issues and set priorities  </li>
-                                <li> 	Good communication and leadership skills </li>
-                            </ul>
-                        </div>
-					</div>
-                    
-                    <div class="ac-item border-bottom ">
-						<h5 class="ac-title border-bottom"> DESIGN VERIFICATION ENGINEERS </h5>
-						<div class="ac-content border-bottom">
-                        	<h5 style="color:#007daa; font-size:18px;"> Sr. Engineer / MTS / SMTS </h5>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Qualification:</span> B.Tech / M.Tech or equivalent from a reputed University </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Experience:</span> 2 - 8 years of relevant experience </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa;">Location:</span> Bangalore / Hyderabad </p>
-                            <p style="margin-bottom:5px; color:#58595b;"> <span style="font-weight:bold; color:#007daa; ">Job Description </span> <br>
-                            	
-                            </p>
-                            
-                            <ul class="" style="font-size:14px; color:#58585a; padding-left:15px;">
-                                <li> 	Expert in UVM / OVM for Verification </li>
-								<li>	System verilog assertions • Perl • Functional + Code Coverage </li>
-								<li>	Verilog and VHDL </li>
-                                <li>	Cadence IUS (preferred) or Mentor Questasim </li>
-                                <li>	Image Sensor knowledge is a plus </li>
-                                <li>	Experience with SPI / I2C is a plus </li>
-                            </ul>
-                        </div>
+				<ul class="social-links">
+					<li><a href="https://twitter.com/ambitsemi"><span class="fab fa-twitter"></span></a></li>
+					<li><a href="https://www.facebook.com/ambitbangalore"><span class="fab fa-facebook-square"></span></a></li>
+					<li><a href="https://plus.google.com/u/0/114979687527527722453"><span class="fab fa-google-plus"></span></a></li>
+					<li><a href="https://www.linkedin.com/in/ambitsemi/"><span class="fab fa-linkedin"></span></a></li>
+				</ul>
+			</nav>
+		</div><!-- End Mobile Menu -->
+
+		
+
+		<!-- Sticky Header  -->
+		<div class="sticky-header">
+			<div class="auto-container">
+				<div class="inner-container">
+					<!--Logo-->
+					<div class="logo">
+						<a href="index.html" title=""><img src="images/logo-2.png" alt="" title=""></a>					</div>
+
+		      <!--Right Col-->
+					<div class="nav-outer">
+						<!-- Main Menu -->
+						<nav class="main-menu">
+							<div class="navbar-collapse show collapse clearfix">
+								<ul class="navigation clearfix">
+									<!--Keep This Empty / Menu will come through Javascript-->
+								</ul>
+						  </div>
+						</nav><!-- Main Menu End-->
+
+						<!--Mobile Navigation Toggler-->
+						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 					</div>
 				</div>
-                        
-                	</div>
+			</div>
+		</div><!-- End Sticky Menu -->
+	</header>
+	<!--End Main Header -->
+
+	<!-- Start main-content -->
+	<section class="page-title" style="background-image: url(images/page-title.jpg);">
+		<div class="auto-container">
+			<div class="title-outer">
+				<h1 class="title">Careers</h1>
+				<ul class="page-breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li>Careers</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- end main-content -->
+    
+    
+    
+    
+    
+	<!-- Careers Section -->
+    
+    <section class="news-section-two pt-70">
+		<div class="auto-container">
+			<div class="row">
+				<!-- Title Column -->
+				<div class="title-column col-xl-12 col-lg-12 col-md-12 mb-0">
+					<div class="inner-column">
+						<div class="sec-title">
+							<h2>Why Ambit</h2>
+						</div>
+					</div>
+				</div>
+
+		  <div class=" col-xl-12 col-lg-12 col-md-12">
+				<p> Are you up for a career that throws challenges and at the same time gives you a sense of pride in what you do?
+
+Ambit offers it’s people the ideal platform to toil and grow in the semiconductor design profession. Our people have complete freedom to operate in their own flexible ways and support that help them to learn and enhance their skills further.
+
+Ambit firmly believes that for a company to grow big through innovation, its people must be given a free hand to experiment and innovate. The cheerful and bubbly work environment at Ambit portrays the commitment of the management for its people and their values.
+
+Come join us today for a bright future in semiconductor design services. </p>
+
+				<a  href="#"class="theme-btn btn-style-one">Current Opportunities</a>
+
+			</div>
+				
+			</div>
+            
+            
+            <!--<div class="row mt-40">
+				<div class="title-column col-xl-12 col-lg-12 col-md-12 mb-0">
+					<div class="inner-column">
+						<div class="sec-title">
+							<h2>Open Positions</h2>
+						</div>
+					</div>
+				</div>
+
+			<div class=" col-xl-12 col-lg-12 col-md-12">
+				<p> Don't see the job you are looking for? </p>
+                <p> Send us your resume and we will get in touch with you when a suitable position opens. </p>
                 
+                <div class="btm-box mt-40">
+                    <a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+                    </div>
+			</div>
+				
+			</div>-->
+
+   
+    <!--<hr class="btline mt-40">-->
+		</div>
+	</section>
+    
+    
+	<section class="">
+		<div class="container pt-0">
+			<div class="row">
+				<div class="col">
+                	<div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            	 <span>Physical Design Engineer (Job Code: ATPD2501)</span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  5 - 8 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			
+  
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> The candidate will perform the physical design implementation, including floor planning, power grid design, place and route, clock tree synthesis, timing closure, power/signal integrity signoff, physical verification (DRC/LVS/Antenna), EM/IR signoff, DFM Closure. </li>
+                                <li> <i class="chip-icon-2"></i> The candidate will have the opportunity to work on many varieties of challenging designs, i.e. low power.   </li>
+                                <li> <i class="chip-icon-2"></i> Must have experience in Cadence/Synopsys EDA Tools. </li>
+                                <li> <i class="chip-icon-2"></i> Undertake full-chip flat / block level database timing analysis and provide budgets or suggestions to Sub-system and Block owners for convergence.   </li>
+                                <li> <i class="chip-icon-2"></i> Hands-on experience in STA of large blocks/Sub-systems or/and full chip  </li>
+                                <li> <i class="chip-icon-2"></i> Expert user of industry standard tools for timing signoff especially Synopsys PT.  </li>
+                                
+                                <li> <i class="chip-icon-2"></i>	Expert in scripting languages (shell, perl, tcl) and Make flow. </li>
+<li> <i class="chip-icon-2"></i>	In-depth knowledge of 7nm/5nm/3nm technologies and associated physical design challenges.  </li>
+<li> <i class="chip-icon-2"></i>	Should be self-motivated and take initiatives to drive new methodologies.  </li>
+<li> <i class="chip-icon-2"></i>	Should have strong written and verbal communication skills.  </li>
+
+                            </ul>
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <span>ASIC Design Engineer (Job Code: ATRT2501)</span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  5 - 10 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                          
+                                                      
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> You will be responsible for IP / sub-system level micro-architecture development and RTL coding.  </li>
+								
+<li> <i class="chip-icon-2"></i>	Prepare block/sub-system level timing constraints.  </li>
+<li> <i class="chip-icon-2"></i>	Integrate IP/sub-system. </li>
+<li> <i class="chip-icon-2"></i>	Perform basic verification either in IP Verification environment or FPGA.  </li>
+<li> <i class="chip-icon-2"></i>	Deep knowledge of mixed signal concepts  </li>
+<li> <i class="chip-icon-2"></i>	Deep knowledge of RTL design fundamentals  </li>
+<li> <i class="chip-icon-2"></i>	Deep knowledge of Verilog and System-Verilog </li>
+<li> <i class="chip-icon-2"></i>	Synthesis, Equivalence Checking, Clock-Domain Crossing (CDC) Analysis, Area/Power optimizations, Linting, Power intent, Static Timing Analysis (STA)  </li>
+<li> <i class="chip-icon-2"></i>	Write design specifications for different functional blocks on a chip, create micro-architecture diagrams of functional blocks, Design functional blocks using System Verilog RTL code, conduct Synthesis and place and route to meet timing / area goals. </li>
+<li> <i class="chip-icon-2"></i>	Contribute to Design Verification, Synthesis, Power Reduction, Timing Convergence & Floorplan efforts. </li>
+<li> <i class="chip-icon-2"></i>	Code Verilog RTL for high performance designs </li>
+<li> <i class="chip-icon-2"></i>	Specify, design, and synthesize RTL blocks, optimize and floorplan them. </li>
+
+				
+                            </ul>
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <span>STA Engineer (Job Code: ATST2501)</span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  7 - 10 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			                            
+                                                        
+                             <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i>	STA setup, convergence, reviews and signoff for multi-mode, multi-voltage domain designs.  </li>
+<li> <i class="chip-icon-2"></i>	Timing analysis, validation and debugging across multiple PVT conditions using PT/Tempus.  </li>
+<li> <i class="chip-icon-2"></i>	Run Primetime and/or Tempus for STA flow optimization and Spice to STA correlation. </li>
+<li> <i class="chip-icon-2"></i>	Evaluate multiple timing methodologies/tools on different designs and technology nodes. </li>
+<li> <i class="chip-icon-2"></i>	Work on automation scripts within STA/PD tools for methodology development. </li>
+<li> <i class="chip-icon-2"></i>	Good Technical writing and Communication skills, </li>
+<li> <i class="chip-icon-2"></i>	should be willing to work in cross-collaborative environment. </li>
+<li> <i class="chip-icon-2"></i>	Experience in design automation using TCL/Perl/Python.  </li>
+<li> <i class="chip-icon-2"></i>	Familiar with digital flow design implementation RTL to GDS: ICC, Innovous , PT/Tempus  </li>
+<li> <i class="chip-icon-2"></i>	Familiar with process technology enablement: Circuit simulations using Hspice/FineSim, Monte Carlo.  </li>
+ 
+                            </ul>
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            <span>Physical Verification Engineer  (Job Code: ATPV2501)</span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  4 - 6 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			
+                            
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> 	Work with floorplan and physical design engineers to drive physical verification convergence. </li>
+                                <li> <i class="chip-icon-2"></i>	 Should be proficient in DRC and LVS analysis at advanced nodes like 5nm or below. </li>
+                                <li> <i class="chip-icon-2"></i>	 Good knowledge in specific areas like Antenna, ESD, ERC, LUP will be preferred. </li>
+                                <li> <i class="chip-icon-2"></i>	Working knowledge on full chip phyV will be added advantage. </li>
+                                <li> <i class="chip-icon-2"></i>	 Prior work experience on FullChip RDL like IO/PADRing routing will be preferred. </li>
+                                <li> <i class="chip-icon-2"></i>	  Understanding multi voltage regions will be preferred. </li>
+
+                            </ul>
+                            
+                            <h5> Tools:  </h5>	
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> 	 Expertise in Calibre/ICV and ICC2 tools.  </li>
+                                <li> <i class="chip-icon-2"></i>	Scripting will be preferred.  </li>
+                                <li> <i class="chip-icon-2"></i>	Scripting inside Calibre tool will be added asset.  </li>
+                                <li> <i class="chip-icon-2"></i>	Automation [tcl, perl, python, etc,..]  </li>
+                                <li> <i class="chip-icon-2"></i>	RDL experience  </li>
+                                <li> <i class="chip-icon-2"></i>	Full chip/ subsystem LV experience in layout debug and fix  </li>
+                                <li> <i class="chip-icon-2"></i>	Good PV-PD knowledge  </li>
+							</ul>
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            <span> Layout Design Engineer (Job Code: ATLT2501) </span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  3 - 8 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			
+                            
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> 	Experienced in analog/custom layout design in advanced CMOS process.  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Expertise in Cadence VLE/VXL and Calibre DRC/LVS is a must.  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Should have hands on experience of Critical Analog Layout design of blocks such as Temperature sensor, PLL, ADC, DAC, LDO, Bandgap, Ref Generators, Charge Pump, Current Mirrors, Comparator, Differential Amplifier etc.,  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Good understanding of Analog Layout fundamentals (e.g. Matching, Electro-migration, Latch-up, coupling, cross-talk, IR-drop, active and passive parasitic devices etc.)  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Understanding layout effects on the circuit such as speed, capacitance, power and area etc.,  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Ability to understand design constraints and implement high-quality layouts.  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Excellent command and problem-solving skills in over Physical layout verification.  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Multiple Tape out support experience will be an added advantage.  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Scripting and automation experience is good to have but not mandatory.  </li>
+                                <li> 	<i class="chip-icon-2"></i>	Excellent verbal and written communication skills.  </li>
+                            </ul>
+                    
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                       <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            <span> DFT Engineer (Job Code: ATDF2501) </span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  4 - 8 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			
+                            
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> 	In depth knowledge of DFT concepts, hands on experience in scan insertion, ATPG, coverage analysis, Transition delay test coverage analysis  </li>
+                                 <li> <i class="chip-icon-2"></i> 	In depth knowledge and hands on experience in LBIST insertion  </li>
+                                 <li> <i class="chip-icon-2"></i> 	Expertise in test mode timing constraints definition, knowledge in providing timing fixes/corrective actions for timing violations.  </li>
+                                 <li> <i class="chip-icon-2"></i> 	Expertise in scripting languages such as perl, shell, phython etc.  </li>
+                                 <li> <i class="chip-icon-2"></i> 	Experience in RTL and Gate level & Power aware simulations of scan and MBIST test vectors  </li>
+                                 <li> <i class="chip-icon-2"></i> 	Knowledge of equivalence check, DFT DRC rules both in RTL lint tool (like spyglass) and ATPG tool like (Tessent)  </li>
+
+
+                            </ul>
+                    
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            <span> Design Verification Engineer (Job Code: ATDV2501) </span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  5 - 8 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			
+                            
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> 	Experience in the verification of IP cores.  </li>
+<li> <i class="chip-icon-2"></i>	Must have proven experience in developing HVL (System Verilog/UVM) based test environments, developing and implementing test plans, implementing and extracting verification metrics such as functional coverage and Code coverage.  </li>
+<li> <i class="chip-icon-2"></i>	Experience on DDR Protocol is necessary. Understanding BIST would be an added advantage.  </li>
+<li> <i class="chip-icon-2"></i> Familiarity with HDLs such as Verilog and scripting languages such as shell/Perl/Python etc. is highly desirable. 
+Good communication skills, debug and problem-solving skills, mentoring teammates and should be self-motivated.  </li>
+
+<li> <i class="chip-icon-2"></i>	Be a technical contributor in the Verification Tasks – System Verilog/Verilog coding of testbenches, Test cases, performing verification tasks such as coverage, debug, regressions using the latest methodologies such as UVM.  </li>
+<li> <i class="chip-icon-2"></i>	Creates deliverables which do not require close review or supervision by a Senior Technical Engineer.  </li>
+<li> <i class="chip-icon-2"></i>	Be able to study the coverage metrics and improve them with definition of additional test cases in directed environment, at least for small/ medium complexity features of the protocol/ product specs.  </li>
+
+
+
+
+                            </ul>
+                    
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            <span> Embedded Developer (Job Code: ATED2501) </span> <br> <span class="location-name"> Bangalore / Hyderabad </span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                          		<div class="content">
+									<div class="text">
+                                    	<h5> Qualification:  </h5>	
+                            			<p>  B.Tech / M.Tech or equivalent from a reputed University </p>
+                                        
+                                        <h5> Experience:  </h5>	
+                            			<p>  5 - 8 years of relevant experience </p>
+                                        
+                                        <h5> Job Description:  </h5>	
+                            			
+                            
+                            
+                            <ul class="list-style-careers">
+                                <li> <i class="chip-icon-2"></i> 	Good development experience in C and data structure  </li>
+                                <li> <i class="chip-icon-2"></i> Experienced in device driver development for PMIC, Charging, I2C, USB-PD, BLE, GPIO,  SPI, UART, JTAG, one wire etc. </li>
+                                <li> <i class="chip-icon-2"></i> Working Experience on STM32 cube/Atmel based MCU or similar. </li>
+                                <li> <i class="chip-icon-2"></i> Experience in hands-on design, development and troubleshooting on embedded targets </li>
+                                <li> <i class="chip-icon-2"></i> Requires a solid understanding of the software development and project management life cycle. </li>
+                            
+                              </ul>
+  
+                          <h5> Additional Skills: </h5>
+                          <ul class="list-style-careers">
+                            <li> <i class="chip-icon-2"></i> Excellent debugging & troubleshooting skills </li>
+                            <li> <i class="chip-icon-2"></i> Sharp coding & designing skills </li>
+                            <li> <i class="chip-icon-2"></i> Good communications skills and ability to work with both internal and external customers with wide range of knowledge and skill levels </li>
+                            <li> <i class="chip-icon-2"></i> Should be able to work independently </li>
+                           </ul>                 
+                            
+                          
+<div class="btm-box mt-20">
+<a class="theme-btn btn-style-one" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Apply Now</a>
+</div>
+                            
+                                    </div>
+								</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                    </div>
                 </div>
-          
             </div>
-            </div>
-        </section>
+        </div>
+    </section>                
+ 
+	
+	<!--End Careers Section -->
 
 
-        
+
+	<!-- Main Footer -->
+	<footer class="main-footer">
+		<div class="bg-image"  style="background-image: url(./images/background/2.jpg)"></div>
+
+  <!--Widgets Section-->
+		<div class="widgets-section">
+			<div class="auto-container">
+				<div class="row">
+					<!--Footer Column-->
+					<div class="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
+						<div class="footer-widget about-widget">
+							<div class="logo"><a href="index.html"><img src="images/logo-dark.png" alt="" style="width:70%;" ></a></div>
+							<div class="text">Trusted Partner in Semiconductor Engineering</div>
+						</div>
+					</div>
+
+					<!--Footer Column-->
+					<div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget">
+							<h3 class="widget-title">Explore</h3>
+							<ul class="user-links">
+								<li><a href="about-ambit.html">About Ambit</a></li>
+								<li><a href="management.html">Management</a></li>
+								<li><a href="careers.html">Careers</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!--Footer Column-->
+					<div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget contact-widget">
+							<h3 class="widget-title">Services</h3>
+                            <ul class="user-links">
+								<li><a href="systems-design.html"> System Design </a></li>
+                                <li><a href="offshore-design-centre.html"> Offshore Design Centre   </a></li>
+                                <li><a href="soc-ip-physical-design.html"> SoC/IP Physical Design </a></li>
+                                <li><a href="embedded-solutions.html"> Embedded Solutions </a></li>
+                                <li><a href="software-solutions.html"> Software Solutions </a></li>                                            	
+							</ul>
+						</div>
+					</div>
+                    
+                    
+                    <!--Footer Column-->
+					<div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="footer-widget contact-widget">
+							<h3 class="widget-title">Connect </h3>
+							<ul class="social-icon-two">
+                            	<li> <a href="https://twitter.com/ambitsemi"><img src="images/twitter-x-icon.png" alt="X" width="22" height="22"></a> </li>
+								<!--<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>-->
+								<li><a href="https://www.facebook.com/ambitbangalore"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/ambitsemi/"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://plus.google.com/u/0/114979687527527722453"><i class="fab fa-google"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+  <!--Footer Bottom-->
+		<div class="footer-bottom">
+			<div class="">
+				<div class="inner-container">
+                	<div class="auto-container">
+                	<div class="row">
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
+                            <div class="copyright-text">&copy; Copyright 2018 by  <a href="index.html">Semiconductors Pvt. Ltd</a> All Rights Reserved </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" style="color:#8c8f94;">
+                             Crafted by: <a href="#" style="color:#FFF !important;">EYEING<span style="color:#FFF !important;">TA</span></a> .com
+                        </div>
+                    </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--End Main Footer -->
+
+</div><!-- End Page Wrapper -->
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel"> Send a Resume </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Contact Form -->
+					<form id="contact_form" name="contact_form" class="careers_form" action="includes/job.php" method="post">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="mb-3">
+									<input name="form_name" class="form-control required" type="text" placeholder="Enter Full Name *">
+								</div>
+							</div>
+							<div class="col-sm-6"> 
+								<div class="mb-3">
+									<input name="form_email" class="form-control required email" type="email" placeholder="Enter Email Address *">
+                                    
+								</div>
+							</div>
+						</div>
+						<div class="row">
+                        	<div class="col-sm-6">
+								<div class="mb-3">
+									<input name="form_phone" class="form-control required" type="text" placeholder="Enter Phone Number *">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="mb-3">
+									<input name="form_subject" class="form-control required" type="text" placeholder="Enter Location *">
+								</div>
+							</div>
+						</div>
+                        
+                        <div class="row">
+                        	<div class="col-sm-6">
+								<div class="mb-3">
+									<input name="form_edu" class="form-control required" type="text" placeholder="Enter Your Education Details *">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="mb-3">
+									<input name="form_exp" class="form-control required" type="text" placeholder="Enter Your Work Experience *">
+								</div>
+							</div>
+						</div>
+                        
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="mb-3">
+                                    <textarea name="form_message" class="form-control " rows="4" placeholder="Enter Additional Info"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-6 center">
+                                <div class="mb-3 resume-box-1">
+                                    <h3>Resume / CV *</h3>
+                                    <h5>File Format: doc, docx, image, pdf</h5>
+                                   <input type="file" aria-required="true" name="widget-contact-form-attachment" class="form-control required attachment bb" placeholder="Attach Resume">
+                                </div>
+                            </div>
+                            
+                            <!--<div class="col-sm-6">
+                                <div class="mb-3 resume-box-1">
+                                    <h3>Cover Letter *</h3>
+                                    <h5>File Format: doc, docx, image, pdf</h5>
+                                   <input type="file" aria-required="true" name="widget-contact-form-attachment" class="form-control required attachment bb" placeholder="Attach Resume">
+                                </div>
+                            </div>-->
+                        </div>
+                        
+						<div class="mb-3">
+							<input name="form_botcheck" class="form-control" type="hidden" value="" />
+						</div>
+					
+					<!-- Contact Form Validation-->
+      </div>
+      				<div class="modal-footer">
+      				<!-- <button type="reset" class="theme-btn btn-style-two" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal"><span class="btn-title">Reset</span></button>-->
+        			<input name="form_botcheck" class="form-control" type="hidden" value="" />
+					<button type="submit" class="theme-btn btn-style-one" data-loading-text="Please wait..."><span class="btn-title">Send message</span></button>
+      			</div>
+      			</form>
 
       
-
-     
-
-  
-
-        <!-- Footer -->
-        <footer id="footer" class="footer-light" style="background:#234278; border-top:0px;">
-            
-            <div class="copyright-content" style="background:#234278; border-top:0px;">
-                <div class="container">
-                    <div class="col-sm-5 text-left" style="color:#9fc3f5;"> 2018 &copy; Ambit Semiconductors Pvt. Ltd. All Rights Reserved </div>
-                    <div class="col-sm-3"> 
-                    	<div class="social-icons social-icons-border float-left">
-                            <ul>
-                                <li class="social-facebook"><a href="https://www.facebook.com/Ambit-Semiconductors-Pvt-Ltd-421917198248528/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li class="social-twitter"><a href="https://twitter.com/Ambitsemi"><i class="fa fa-twitter" target="_blank"></i></a></li>
-                                <li class="social-gplus"><a href="https://plus.google.com/u/0/114979687527527722453"><i class="fa fa-google-plus"></i></a></li>
-                                <li class="social-gplus"><a href="https://www.linkedin.com/in/ambitsemi/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li class="social-youtube"><a href="https://www.youtube.com/channel/UCeftRWBMrbBNE0nwd6-XkCA" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                            </ul>
-                       </div> 
-					</div>
-                    <div class="col-sm-4 text-right" style="color:#007daa;"> Crafted by: <a href="#" style="color:#007daa !important; font-weight:700;">EYEING<span style="color:#FFF !important;">TA</span></a> .com</div>
-                </div>
-            </div>
-        </footer>
-        <!-- end: Footer -->
-
     </div>
-    <!-- end: Wrapper -->
+  </div>
+</div>
 
-    <!-- Go to top button -->
-    <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a>
-    <!--Plugins-->
-    <!--<script src="js/jquery.js"></script>-->
-    <script src="js/plugins.js"></script>
 
-    <!--Template functions-->
-    <script src="js/functions.js"></script>
- 	
-    
- 
-	</body>
+<script src="js/jquery.js"></script> 
+<script src="js/popper.min.js"></script>
+<!--Revolution Slider-->
+<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="js/main-slider-script.js"></script>
+<!--Revolution Slider-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/script.js"></script>
+
+<!-- form submit -->
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.form.min.js"></script>
+<script>
+	(function($) {
+		$("#contact_form").validate({
+			submitHandler: function(form) {
+				var form_btn = $(form).find('button[type="submit"]');
+				var form_result_div = '#form-result';
+				$(form_result_div).remove();
+				form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+				var form_btn_old_msg = form_btn.html();
+				form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+				$(form).ajaxSubmit({
+					dataType:  'json',
+					success: function(data) {
+						if( data.status == 'true' ) {
+							$(form).find('.form-control').val('');
+						}
+						form_btn.prop('disabled', false).html(form_btn_old_msg);
+						$(form_result_div).html(data.message).fadeIn('slow');
+						setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+					}
+				});
+			}
+		});
+	})(jQuery);
+</script>
+
+</body>
 </html>

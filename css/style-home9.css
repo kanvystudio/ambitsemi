@@ -1,0 +1,26 @@
+
+
+.new-section-layout9 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #F3F3F3;
+  background-image: url(../images/bg-layout9.jpg);
+  background-position: -550px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-section-layout9 .new-column {
+  padding: 50px 60px 60px 60px;
+  background-color: #086ad8;
+  background-image: url(../images/beszin_bg_layout9.png);
+  background-repeat: no-repeat;
+}
+.new-section-layout9 .new-column h2 {
+  color: #ffffff;
+}
+.new-section-layout9 .new-column p {
+  color: #ffffff;
+  margin-bottom: 45px;
+  margin-top: 40px;
+}
+

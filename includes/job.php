@@ -8,12 +8,12 @@ $mail = new PHPMailer();
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 //$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.rahamedfortest@gmail.com';                  // Specify main and backup SMTP servers
+$mail->Host = 'smtp.office365.com';                  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'smtp.rahamedfortest@gmail.com';    // SMTP username
-$mail->Password = 'rahamedfortest@1718';                         // SMTP password
+$mail->Username = 'career@ambitsemi.com';    // SMTP username
+$mail->Password = 'A!m@b#i$t%';                         // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Port = 587;                                    // TCP port to connect to
 
 $message = "";
 $status = "false";

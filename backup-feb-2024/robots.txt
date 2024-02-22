@@ -1,4 +1,0 @@
-User-agent:  Googlebot
-Disallow: 
-
-sitemap: http://www.ambitsemi.com/sitemap.xml

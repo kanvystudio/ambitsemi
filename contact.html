@@ -49,7 +49,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="logo-box">
-					<div class="logo"><a href="index.html"><img src="images/logo-dark.png" alt="" title="Oitech"></a></div>
+					<div class="logo"><a href="index.html"><img src="images/logo-dark.png" alt="" title="Ambit"></a></div>
 				</div>
 
 				<!--Nav Box-->
@@ -166,44 +166,56 @@
 	</section>
 	<!-- end main-content -->
     
-    
+   
+		    
 	<!--Contact Details Start-->
 	<section class="contact-details">
 		<div class="container ">
+		        
 			<div class="row">
 				<div class="col-xl-7 col-lg-6">
+
+                     <!-- form success message display div -->
+            <div class="row">
+		        <div class="col-md-12">
+		            <div id="user-message" class="message-success">    </div> 
+		        </div>      
+		    </div>  
+	<!-- END form success message display div -->	    
+
+
 					<div class="sec-title">
 						<span class="sub-title">Ready to push the limits of possibility?</span>
 						<h4> Write your Mission below and we’ll get in touch!</h4>
 					</div>
 					<!-- Contact Form -->
-					<form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
+					<form id="contact_form-new" name="contact_form" class="" action="includes/sendmail-contact.php" method="post">
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="mb-3">
-									<input name="form_name" class="form-control required" type="text" placeholder="Enter Name">
+									<input name="form_name" class="form-control required" required="true" type="text" placeholder="Enter Name">
 								</div>
 							</div>
 							<div class="col-sm-6">
 								<div class="mb-3">
-									<input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+									<input name="form_email" class="form-control required email" required="true" type="email" placeholder="Enter Email">
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="mb-3">
-									<input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
+									<input name="form_sub" class="form-control required" required="true" type="text" placeholder="Enter Subject">
 								</div>
 							</div>
 							<div class="col-sm-6">
 								<div class="mb-3">
-									<input name="form_phone" class="form-control required" type="text" placeholder="Enter Phone">
+									<input name="form_phone" class="form-control required" type="text" required="true" placeholder="Enter Phone">
 								</div>
 							</div>
 						</div>
 						<div class="mb-3">
-							<textarea name="form_message" class="form-control required" rows="7" placeholder="Enter Message"></textarea>
+							<textarea name="form_message" class="form-control required" required="true" rows="7" placeholder="Enter Message"></textarea>
 						</div>
 						<!-- 
 						<div class="mb-3">
@@ -215,6 +227,9 @@
 							<input name="form_botcheck" class="form-control" type="hidden" value="" />
 							<button type="submit" class="theme-btn btn-style-one" data-loading-text="Please wait..."><span class="btn-title">Send message</span></button>
 						</div>
+						
+						  
+						
 					</form>
 					<!-- Contact Form Validation-->
 				</div>
@@ -384,10 +399,10 @@
                 	<div class="auto-container">
                 	<div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
-                            <div class="copyright-text">&copy; Copyright 2018 by  <a href="index.html">Semiconductors Pvt. Ltd</a> All Rights Reserved </div>
+                            <div class="copyright-text">&copy; Copyright 2024 by  <a href="index.html">Ambit Semiconductors Pvt Ltd.</a> All Rights Reserved. </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" style="color:#8c8f94;">
-                             Crafted by: <a href="#" style="color:#FFF !important;">EYEING<span style="color:#FFF !important;">TA</span></a> .com
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 crafted">
+                             Crafted by: <a href="#">EYEING<span>TA</span></a>.com
                         </div>
                     </div>
                     </div>
@@ -402,22 +417,37 @@
 <!-- Scroll To Top -->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
-<script src="js/jquery.js"></script> 
+
+<!-- for php mail code -->
+<script>
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var foo = getParameterByName('message'); // "message"
+if(foo){document.getElementById("user-message").innerHTML = foo;
+    document.getElementById("user-message").style.display = "block";
+}
+</script>
+
+    <script>
+        setTimeout(function() {
+            document.getElementById('user-message').classList.add('hidden');
+        }, 5000); // 3000 milliseconds = 6 seconds
+    </script>
+
+<script>
+window.history.pushState({}, document.title, "/" + "/contact.html");
+</script>
+
+<!-- for php mail code END -->
+
+<script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
-<!--Revolution Slider-->
-<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="js/main-slider-script.js"></script>
-<!--Revolution Slider-->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/jquery-ui.js"></script>
